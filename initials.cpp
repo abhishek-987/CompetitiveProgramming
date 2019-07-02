@@ -19,15 +19,12 @@ typedef pair<int, int> pii;
 typedef vector<int> vi;
 typedef vector<pii> vpi;
 typedef vector<vi> vvi;
-typedef long long i64;
-typedef vector<i64> vi64;
-typedef vector<vi64> vvi64;
-typedef pair<i64, i64> pi64;
-typedef vector<pi64> vpi64;
-typedef double ld;
-
-template<class T> bool uin(T &a, T b) { return a < b ? (a = b, true) : false; }
-template<class T> bool uax(T &a, T b) { return a > b ? (a = b, true) : false; }
+typedef long long ll;
+typedef vector<ll> vll;
+typedef vector<vll> vvll;
+typedef pair<ll, ll> pll;
+typedef vector<pll> vpll;
+typedef long double ld;
 
 int main() {
     ios::sync_with_stdio(false);
