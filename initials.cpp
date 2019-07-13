@@ -46,12 +46,5 @@ const ll MOD = 1e9+7, INF = 1e18;
 
 void Solve(){
 
-	int t;	
-	cin>>t;
-	while(t--){
-		int n;
-		cin>>n;
-		cout<<n*5<<endl;
-	}
-
+	
 }
