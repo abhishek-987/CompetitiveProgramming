@@ -1,12 +1,16 @@
 #include <bits/stdc++.h>
 
+#define mp make_pair
+#define mt make_tuple
 #define fi first
 #define se second
-#define eb emplace_back
-#define um unordered_map
+#define pb push_back
 #define all(x) (x).begin(), (x).end()
-#define forn(i,n) for(int i=0;i<(int)(n);++i)
-#define for1(i,n) for(int i=1;i<=(int)(n);++i)
+#define rall(x) (x).rbegin(), (x).rend()
+#define forn(i, n) for (int i = 0; i < (int)(n); ++i)
+#define for1(i, n) for (int i = 1; i <= (int)(n); ++i)
+#define ford(i, n) for (int i = (int)(n) - 1; i >= 0; --i)
+#define fore(i, a, b) for (int i = (int)(a); i <= (int)(b); ++i)
 
 using namespace std;
 
