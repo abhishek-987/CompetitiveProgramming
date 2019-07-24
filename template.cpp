@@ -20,8 +20,9 @@ typedef vector<int> vi;
 typedef vector<pair<int, int>> vpi;
 typedef vector<vi> vvi;
 typedef vector<ll> vll;
-typedef vector<vll> vvll;
 typedef vector<pair<ll, ll>> vpll;
+typedef vector<vll> vvll;
+
 
 template<class T>bool uin(T &a, T b){ return a>b ? (a = b, true) : false; }
 template<class T>bool uax(T &a, T b){ return a<b?(a = b, true): false; }
