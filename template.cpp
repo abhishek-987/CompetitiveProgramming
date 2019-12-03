@@ -24,8 +24,8 @@ typedef vector<pair<ll, ll>> vpll;
 typedef vector<vll> vvll;
 
 
-template<class T>bool uin(T &a, T b){ return a>b ? (a = b, true) : false; }
-template<class T>bool uax(T &a, T b){ return a<b?(a = b, true): false; }
+template<class T>bool uin(T &a, T b){ return a > b ? (a = b, true) : false; }
+template<class T>bool uax(T &a, T b){ return a < b?(a = b, true): false; }
 
 const ll MOD = 1e9+7, INF = 1e18;
 
