@@ -2,7 +2,7 @@
 
 #define mp make_pair
 #define mt make_tuple
-#define fi first
+#define fi firs
 #define se second
 #define pb push_back
 #define all(x) (x).begin(), (x).end()
