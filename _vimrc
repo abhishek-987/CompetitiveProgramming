@@ -1,13 +1,6 @@
 " Vim with all enhancements
 source $VIMRUNTIME/vimrc_example.vim
 
-" Remap a few keys for Windows behavior
-source $VIMRUNTIME/mswin.vim
-
-" Mouse behavior (the Windows way)
-behave mswin
-
-
 au GUIEnter * simalt ~x
 set ts=4
 set sw=4
@@ -22,8 +15,7 @@ set is
 set cb=unnamed
 set gfn=Fixedsys:h10
 set si
-set guifont=Consolas:h13
-
+set guifont=Consolas:h14
 
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
