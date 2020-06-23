@@ -2,6 +2,7 @@
 source $VIMRUNTIME/vimrc_example.vim
 
 au GUIEnter * simalt ~x
+set nu
 set ts=4
 set sw=4
 set autoindent
@@ -9,13 +10,20 @@ set hlsearch
 syntax enable
 set noerrorbells
 set visualbell
-colo blue
 set hls
 set is
 set cb=unnamed
+" colo blue
 set gfn=Fixedsys:h10
 set si
 set guifont=Consolas:h14
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+
+nnoremap <C-F1> :if &go=~#'m'<Bar>set go-=m<Bar>else<Bar>set go+=m<Bar>endif<CR>
+nnoremap <C-F2> :if &go=~#'T'<Bar>set go-=T<Bar>else<Bar>set go+=T<Bar>endif<CR>
+nnoremap <C-F3> :if &go=~#'r'<Bar>set go-=r<Bar>else<Bar>set go+=r<Bar>endif<CR>
+
 
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
@@ -26,12 +34,7 @@ autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++14 % -o %:r -Wl,--stack
 autocmd filetype cpp nnoremap <F10> :!%:r<CR>
 autocmd filetype cpp nnoremap <C-C> :s/^\(\s*\)/\1\/\/<CR> :s/^\(\s*\)\/\/\/\//\1<CR> $
  
-set nu
-augroup numbertoggle
-    autocmd!
-    autocmd BufEnter,FocusGained,InsertLeave * set rnu
-    autocmd BufLeave,FocusLost,InsertEnter * set nornu
-augroup END
+
 
 
 
