@@ -35,18 +35,17 @@ void check(int num){
 
 int32_t main() {
 	
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.precision(10);
-    cout << fixed;
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  cout.precision(10);
+  cout << fixed;
 #ifndef ONLINE_JUDGE
-	
 	freopen("input.txt", "rt", stdin);
 #endif
 	
 	
 #ifndef ONLINE_JUDGE
-    cerr << "Time: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n";
+  cerr << "Time: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n";
 #endif
 	return 0;
 }

@@ -23,16 +23,16 @@ const ll MOD = 1e9+7, INF = 1e18;
  
  
 int32_t main(){
-    ios::sync_with_stdio(false); cin.tie(nullptr);
-    cout.precision(10); cout << fixed;
+  ios::sync_with_stdio(false); cin.tie(nullptr);
+  cout.precision(10); cout << fixed;
 #ifdef LOCAL_JUDGE
-    freopen("input.txt", "rt", stdin);
+  freopen("input.txt", "rt", stdin);
 #endif
 
     
   
 #ifdef LOCAL_JUDGE
-    cerr << "Time:" << 1.0 * clock()/CLOCKS_PER_SEC << "s.\n";
+  cerr << "Time:" << 1.0 * clock()/CLOCKS_PER_SEC << "s.\n";
 #endif
-    return 0;
+  return 0;
 }
