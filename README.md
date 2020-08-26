@@ -1,2 +1,2 @@
-# CompetitiveProgramming
-My solutions on various Competitive Programming Websites and config files.
+ CompetitiveProgramming
+My solutions on various Competitive Programming Websites and config files
