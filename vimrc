@@ -54,7 +54,6 @@ set sw=2
 set autoindent
 set hlsearch
 syntax enable
-set noerrorbells
 set si
 
 
