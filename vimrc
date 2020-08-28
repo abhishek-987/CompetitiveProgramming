@@ -48,13 +48,17 @@ endif
 "set hidden		" Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
 
-set nu
-set ts=2
-set sw=2
+syntax on
+set number
+set tabstop=2
+set shiftwidth=2
+set expandtab
 set autoindent
 set hlsearch
-syntax enable
 set si
+set ruler
+highlight Comment ctermfg=green
+
 
 
 " Source a global configuration file if available
