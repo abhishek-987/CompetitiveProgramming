@@ -59,7 +59,10 @@ set si
 set ruler
 highlight Comment ctermfg=green
 
-
+inoremap { {}<Left>
+inoremap {<CR> {<CR>}<Esc>O
+inoremap {{ {
+inoremap {} {}
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
